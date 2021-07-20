@@ -10,3 +10,5 @@
 基本原理：从http://tool.chinaz.com/dns/ 中获取域名的DNS ip，选择ttl最低的连接，然后选择修改本机hosts文件，最后刷新dns并测试稳定性，全程一体化操作，执行完毕后即可愉快畅游
 
 同时，该fastDns.py可以重复执行，达到刷新的目的，也可以自动增加原本没有的域名dns，如raw.githubusercontent.com，以浏览readme中的图片
+
+![Image text](https://github.com/CandleHouse/FastDNS/blob/master/example.png)
