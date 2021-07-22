@@ -1,5 +1,7 @@
 # FastDNS
 
+*Small demo for configuring local DNS domain name mapping*
+
 ## 一个配置本地DNS域名映射的简单样例
 
 诸如Github国内登录缓慢，不方便配置梯子或者不稳定的情况下想要浏览网页很慢
