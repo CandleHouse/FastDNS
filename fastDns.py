@@ -88,7 +88,7 @@ if __name__ == '__main__':
         # 刷新
         cmd = 'ipconfig/flushdns'
         os.system(cmd)
-        cmd = 'ping github.com'
+        cmd = 'ping ' + domain_name
         os.system(cmd)
     elif choose == ('n' or 'N'):
         print("\n已终止操作")
