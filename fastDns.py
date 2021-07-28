@@ -2,8 +2,12 @@ import requests
 import openpyxl
 import json
 import prettytable as pt
-import os
 import time
+import os
+
+# 自动切换工作路径，使得直接用python命令行执行.py文件时，能正确查找到xlsx文件
+current_path = os.path.dirname(__file__)
+os.chdir(current_path)
 
 data_xlsx = openpyxl.load_workbook('dnsSearch.xlsx')
 sheet = data_xlsx['Sheet1']
