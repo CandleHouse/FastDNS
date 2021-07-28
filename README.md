@@ -23,4 +23,4 @@ os.chdir(current_path)
 
 之后可以直接使用python命令行执行.py文件，如果是windows，您甚至可以编写shell指令在“任务计划程序”中按需要自动化执行
 
-![Image text](https://github.com/CandleHouse/FastDNS/blob/master/example.png)
+![Image text](https://raw.githubusercontent.com/CandleHouse/FastDNS/master/example.png)
