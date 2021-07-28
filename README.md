@@ -14,4 +14,13 @@
 
 也可以自动增加原本没有的域名dns，如raw.githubusercontent.com，以浏览readme中的图片
 
+- - -
+#### 自动工作目录切换
+
+<pre><code>current_path = os.path.dirname(__file__)
+os.chdir(current_path)
+</code></pre>
+
+之后可以直接使用python命令行执行.py文件，如果是windows，您甚至可以编写shell指令在“任务计划程序”中按需要自动化执行
+
 ![Image text](https://github.com/CandleHouse/FastDNS/blob/master/example.png)
